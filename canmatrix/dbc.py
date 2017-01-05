@@ -29,7 +29,7 @@ from __future__ import absolute_import
 import logging
 logger = logging.getLogger('root')
 
-from builtins import *
+from future.builtins import *
 import math
 from .canmatrix import *
 import re
